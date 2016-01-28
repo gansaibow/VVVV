@@ -1,11 +1,11 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta34.2.dtd" >
    <PATCH nodename="H:\projects\vvvv_45beta34\vvvv_git\practice\grammar\lesson_001.v4p" systemname="lesson_001" filename="H:\projects\vvvv_45beta34\vvvv_git\practice\grammar\lesson_001.v4p">
-   <BOUNDS type="Window" left="10500" top="3645" width="12375" height="6000">
+   <BOUNDS type="Window" left="10005" top="3480" width="12375" height="6000">
    </BOUNDS>
    <NODE systemname="IOBox (Value Advanced)" nodename="IOBox (Value Advanced)" componentmode="InABox" id="0">
-   <BOUNDS type="Node" left="2130" top="705" width="100" height="100">
+   <BOUNDS type="Node" left="2385" top="750" width="100" height="100">
    </BOUNDS>
-   <BOUNDS type="Box" left="2130" top="705" width="795" height="240">
+   <BOUNDS type="Box" left="2385" top="750" width="795" height="240">
    </BOUNDS>
    <PIN pinname="Y Input Value" slicecount="1" values="5">
    </PIN>
@@ -15,9 +15,9 @@
    </PIN>
    </NODE>
    <NODE systemname="IOBox (Value Advanced)" nodename="IOBox (Value Advanced)" componentmode="InABox" id="2">
-   <BOUNDS type="Node" left="3120" top="705" width="100" height="100">
+   <BOUNDS type="Node" left="3375" top="750" width="100" height="100">
    </BOUNDS>
-   <BOUNDS type="Box" left="3120" top="705" width="735" height="240">
+   <BOUNDS type="Box" left="3375" top="750" width="735" height="240">
    </BOUNDS>
    <PIN pinname="Y Input Value" slicecount="1" values="2">
    </PIN>
@@ -27,7 +27,7 @@
    </PIN>
    </NODE>
    <NODE systemname="Add (Value)" nodename="Add (Value)" componentmode="Hidden" id="3">
-   <BOUNDS type="Node" left="2130" top="1290" width="100" height="100">
+   <BOUNDS type="Node" left="2385" top="1335" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Input 1" visible="1">
    </PIN>
@@ -37,9 +37,9 @@
    </PIN>
    </NODE>
    <NODE systemname="IOBox (Value Advanced)" nodename="IOBox (Value Advanced)" componentmode="InABox" id="4">
-   <BOUNDS type="Node" left="2130" top="1905" width="100" height="100">
+   <BOUNDS type="Node" left="2385" top="1950" width="100" height="100">
    </BOUNDS>
-   <BOUNDS type="Box" left="2130" top="1905" width="795" height="240">
+   <BOUNDS type="Box" left="2385" top="1950" width="795" height="240">
    </BOUNDS>
    <PIN pinname="Y Input Value" visible="1">
    </PIN>
@@ -53,9 +53,9 @@
    <LINK srcnodeid="3" srcpinname="Output" dstnodeid="4" dstpinname="Y Input Value">
    </LINK>
    <NODE systemname="IOBox (Value Advanced)" nodename="IOBox (Value Advanced)" componentmode="InABox" id="6">
-   <BOUNDS type="Node" left="2100" top="2970" width="100" height="100">
+   <BOUNDS type="Node" left="2355" top="3015" width="100" height="100">
    </BOUNDS>
-   <BOUNDS type="Box" left="2100" top="2970" width="795" height="240">
+   <BOUNDS type="Box" left="2355" top="3015" width="795" height="240">
    </BOUNDS>
    <PIN pinname="Y Input Value" slicecount="1" values="5">
    </PIN>
@@ -65,7 +65,7 @@
    </PIN>
    </NODE>
    <NODE systemname="Subtract (Value)" nodename="Subtract (Value)" componentmode="Hidden" id="7">
-   <BOUNDS type="Node" left="2085" top="3495" width="100" height="100">
+   <BOUNDS type="Node" left="2340" top="3540" width="100" height="100">
    </BOUNDS>
    <PIN pinname="Input 1" visible="1">
    </PIN>
@@ -77,9 +77,9 @@
    <LINK srcnodeid="6" srcpinname="Y Output Value" dstnodeid="7" dstpinname="Input 1">
    </LINK>
    <NODE systemname="IOBox (Value Advanced)" nodename="IOBox (Value Advanced)" componentmode="InABox" id="8">
-   <BOUNDS type="Node" left="3105" top="2985" width="100" height="100">
+   <BOUNDS type="Node" left="3360" top="3030" width="100" height="100">
    </BOUNDS>
-   <BOUNDS type="Box" left="3105" top="2985" width="795" height="240">
+   <BOUNDS type="Box" left="3360" top="3030" width="795" height="240">
    </BOUNDS>
    <PIN pinname="Y Input Value" slicecount="1" values="2">
    </PIN>
@@ -91,9 +91,9 @@
    <LINK srcnodeid="8" srcpinname="Y Output Value" dstnodeid="7" dstpinname="Input 2">
    </LINK>
    <NODE systemname="IOBox (Value Advanced)" nodename="IOBox (Value Advanced)" componentmode="InABox" id="9">
-   <BOUNDS type="Node" left="2100" top="4185" width="100" height="100">
+   <BOUNDS type="Node" left="2355" top="4230" width="100" height="100">
    </BOUNDS>
-   <BOUNDS type="Box" left="2100" top="4185" width="795" height="240">
+   <BOUNDS type="Box" left="2355" top="4230" width="795" height="240">
    </BOUNDS>
    <PIN pinname="Y Input Value" visible="1">
    </PIN>
@@ -103,9 +103,9 @@
    <LINK srcnodeid="7" srcpinname="Output" dstnodeid="9" dstpinname="Y Input Value">
    </LINK>
    <NODE nodename="IOBox (String)" componentmode="InABox" id="11" systemname="IOBox (String)">
-   <BOUNDS type="Node" left="480" top="645" width="810" height="270">
+   <BOUNDS type="Node" left="165" top="600" width="810" height="270">
    </BOUNDS>
-   <BOUNDS type="Box" left="480" top="645" width="1260" height="1020">
+   <BOUNDS type="Box" left="165" top="600" width="1260" height="1020">
    </BOUNDS>
    <PIN pinname="Input String" visible="0" slicecount="1" values="|[足し算]&cr;&lf;A = 5;&cr;&lf;B = 2;&cr;&lf;C = A + B;&cr;&lf;|">
    </PIN>
@@ -117,9 +117,9 @@
    </PIN>
    </NODE>
    <NODE nodename="IOBox (String)" componentmode="InABox" id="14" systemname="IOBox (String)">
-   <BOUNDS type="Node" left="405" top="150" width="975" height="270">
+   <BOUNDS type="Node" left="120" top="105" width="975" height="270">
    </BOUNDS>
-   <BOUNDS type="Box" left="405" top="150" width="2115" height="450">
+   <BOUNDS type="Box" left="120" top="105" width="2115" height="450">
    </BOUNDS>
    <PIN pinname="Input String" visible="0" slicecount="1" values="【算術演算子】">
    </PIN>
@@ -133,9 +133,9 @@
    </PIN>
    </NODE>
    <NODE nodename="IOBox (String)" componentmode="InABox" id="15" systemname="IOBox (String)">
-   <BOUNDS type="Node" left="405" top="2970" width="810" height="270">
+   <BOUNDS type="Node" left="210" top="2880" width="810" height="270">
    </BOUNDS>
-   <BOUNDS type="Box" left="405" top="2970" width="1260" height="1020">
+   <BOUNDS type="Box" left="210" top="2880" width="1260" height="1020">
    </BOUNDS>
    <PIN pinname="Input String" visible="0" slicecount="1" values="|[引き算]&cr;&lf;A = 5;&cr;&lf;B = 2;&cr;&lf;C = A - B;&cr;&lf;|">
    </PIN>

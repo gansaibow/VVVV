@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta34.2.dtd" >
    <PATCH nodename="H:\projects\vvvv_45beta34\vvvv_git\practice\grammar\lesson_004.v4p" systemname="lesson_004" filename="H:\projects\vvvv_45beta34\vvvv_git\practice\grammar\lesson_004.v4p" scrollx="0" scrolly="-360">
-   <BOUNDS type="Window" left="8415" top="8400" width="9840" height="6000">
+   <BOUNDS type="Window" left="8415" top="8400" width="9840" height="4350">
    </BOUNDS>
    <NODE nodename="IOBox (String)" componentmode="InABox" id="0" systemname="IOBox (String)">
    <BOUNDS type="Node" left="270" top="270" width="975" height="270">
@@ -135,7 +135,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="5830" top="55" width="3100" height="3100">
    </BOUNDS>
-   <BOUNDS type="Window" left="18285" top="8460" width="7290" height="5925">
+   <BOUNDS type="Window" left="18285" top="8460" width="4425" height="4305">
    </BOUNDS>
    </NODE>
    <LINK srcnodeid="10" srcpinname="Y Output Value" dstnodeid="11" dstpinname="Input 1">

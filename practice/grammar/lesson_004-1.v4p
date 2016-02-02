@@ -40,6 +40,6 @@
    </NODE>
    <LINK srcnodeid="0" srcpinname="Output" dstnodeid="3" dstpinname="Y Input Value">
    </LINK>
-   <BOUNDS type="Window" left="18285" top="8460" width="7290" height="5925">
+   <BOUNDS type="Window" left="18285" top="8460" width="4425" height="4305">
    </BOUNDS>
    </PATCH>

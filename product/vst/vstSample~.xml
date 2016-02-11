@@ -1,0 +1,5 @@
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta34.2.dtd" >
+   <PATCH nodename="H:\projects\vvvv_45beta34\vvvv_git\product\vst\vstSample.v4p" systemname="vstSample" filename="H:\projects\vvvv_45beta34\vvvv_git\product\vst\vstSample.v4p">
+   <BOUNDS type="Window" left="14475" top="7170" width="9000" height="6000">
+   </BOUNDS>
+   </PATCH>

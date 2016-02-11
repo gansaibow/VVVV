@@ -1,0 +1,27 @@
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta34.2.dtd" >
+   <PATCH nodename="H:\projects\vvvv_45beta34\vvvv_git\product\vst\vstSample.v4p" systemname="vstSample" filename="H:\projects\vvvv_45beta34\vvvv_git\product\vst\vstSample.v4p">
+   <BOUNDS type="Window" left="13905" top="7170" width="9000" height="6000">
+   </BOUNDS>
+   <NODE systemname="IOBox (Value Advanced)" nodename="IOBox (Value Advanced)" componentmode="InABox" id="0">
+   <BOUNDS type="Node" left="3540" top="1695" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="3540" top="1695" width="795" height="240">
+   </BOUNDS>
+   </NODE>
+   <NODE componentmode="InAWindow" id="1" nodename="Synth1 VST.dll" systemname="Synth1 VST (VST DShow9)" filename="..\..\..\Daw\VST\Patch\Synth1 VST.dll">
+   <BOUNDS height="100" left="3030" top="3105" type="Node" width="100">
+   </BOUNDS>
+   <PIN pinname="Midi Notes" pintype="Input" visible="1" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Midi Notes Velocity" pintype="Input" visible="1" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Midi Notes Send" pintype="Input" visible="1" slicecount="1" values="0">
+   </PIN>
+   <BOUNDS left="3030" top="3105" type="Box">
+   </BOUNDS>
+   <PIN pinname="Audio Input" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Audio Output" visible="1">
+   </PIN>
+   </NODE>
+   </PATCH>
